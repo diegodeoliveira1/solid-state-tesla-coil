@@ -1,0 +1,17 @@
+# Operating system / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+~$*.pptx
+
+# Temporary processing and exports
+*.tmp
+*.bak
+__pycache__/
+.pytest_cache/
+
+# Keep raw/unprocessed phone MOV footage outside version control;
+# optimized MP4 copies are included in assets/videos/
+*.MOV
+*.mov
